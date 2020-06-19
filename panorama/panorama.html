@@ -1,0 +1,20 @@
+<script type="text/javascript" src="jquery-1_0.js"></script>
+<script type="text/javascript" src="webglpanorama.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+    var data = {
+        right : "right.gif",
+        left : "left.gif",
+        up : "up.gif",
+        down : "down.gif",
+        back : "back.gif",
+        front : "front.gif"
+    }
+	$('#pano').panorama(data);
+
+});
+</script>
+
+<canvas id="pano" width="640" height="400"></canvas>
