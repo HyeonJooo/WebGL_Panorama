@@ -1,11 +1,3 @@
-/*
-* jquery-webglpanorama
-* https://github.com/ulfbiallas/jquery-webglpanorama
-*
-* Copyright (c) 2014-2015 Ulf Biallas
-* Licensed under the MIT license.
-*/
-
 (function ($) {
 
     $.fn.panorama = function (options) {
